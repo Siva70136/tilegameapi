@@ -7,7 +7,7 @@ app.use(cors());
 // Generate random grid pattern
 
 const generateGridPattern = () => {
-    const colors = ['blue', 'red'];
+    const colors = ['blue', 'red','green'];
     const grid = [];
 
     for (let i = 0; i < 10; i++) {
